@@ -22,7 +22,7 @@ RUN npm run lint
 RUN /usr/local/bin/pkg --targets ${NODE}-${PLATFORM}-$([ "$TARGETARCH" == "amd64" ] && echo "x64" || echo "$TARGETARCH") . -o app.bin
 
 # Create the image
-FROM --platform=${TARGETPLATFORM:-linux/amd64} alpine:3.15.4
+FROM --platform=${TARGETPLATFORM:-linux/amd64} alpine:3.16.0
 
 RUN addgroup -g 1000 kroki && adduser -D -G kroki -u 1000 kroki
 
