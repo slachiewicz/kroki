@@ -22,7 +22,7 @@
     "micro": "9.4.1",
     "pino": "8.11.0",
     "pino-debug": "2.0.0",
-    "puppeteer": "14.4.1"
+    "puppeteer": "22.11.2"
   },
   "devDependencies": {
     "chai": "4.3.7",

@@ -18,9 +18,9 @@
     "url": "https://github.com/yuzutech/kroki.git"
   },
   "dependencies": {
-    "@excalidraw/excalidraw": "0.14.2",
+    "@excalidraw/excalidraw": "0.15.3",
     "micro": "9.4.1",
-    "puppeteer": "14.4.1",
+    "puppeteer": "22.11.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
